@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block main %}
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>INFO3180 Lab 2</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='app.css')}}">
+</head>
+<body>
+    <img src="/static/img.jpg" id="ProfilePic">
+    <div class="profile">
+        <div id="Name"><b>Jelani Bryan-Hall</b></div>
+        <p>@Jelsani</p>
+        <div id="Location">Kingston, Jamaica</div>
+        <div id="DateJoined">January,2018</div>
+    </div>
+    <div id="aboutme">
+        <p>My name is Jelani Bryan-Hall and I am a the big brother of kelsey.</p>
+        <div id="Followers"><b>Followers:</b> 19882</div>
+        <div id="Following"><b>Following:</b>100</div>
+        <div id="Posts"><b>Posts:</b> 10</div><br>
+        <button><center>Follow</center></button>
+    </div>
+</body>
+{% endblock %}

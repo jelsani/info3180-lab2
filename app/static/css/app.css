@@ -1,3 +1,51 @@
 body {
-    padding-top: 5rem;
+    background-color: #f4f3f3;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    margin: 20%;
+    border-radius: 10px;
+}
+
+#ProfilePic{
+    background-color: green;
+    border-radius: 50%;
+    width: 120px;
+    height: auto;
+    position: relative;
+    top: 63px;
+    right: -149px;
+    border: 6px solid #f4f3f3;
+   }
+
+#Followers,#Following,#Posts{
+    display: inline-block;
+}
+
+#Name {
+    padding: 10;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #DDDDDD ;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.profile{
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    margin: 20%;
+    border-radius: 10px;
+}
+#aboutme{
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    margin: 20%;
+    border-radius: 10px;
+}
+
+button{
+    height: 30px;
+    color: white;
+    background-color: black;
 }
