@@ -25,16 +25,14 @@ def about():
     """Render the website's about page."""
     return render_template('about.html', name="Mary Jane")
 
+def format_date_joined(year,month,day):
+    date_joined = datetime.date(2018,10,10) # a specific date
+    print ("Joined " + date_joined.strftime("%B , %Y"))
+
 @app.route('/profile')
 def profile():
     """Render user's profile page."""
-    return render_template('profile.html')
-
-@app.route('/profile')
-def format_date_joined():
-    now = datetime.datetime.now() # today's date
-    date_joined = datetime.date(2018, 7, 11) # a specific date
-    print ("Joined " + date_joined.strftime("%B, %Y"))
+    return render_template('profile.html', startdate= format_date_joined(2018,10,1))
 
 ###
 # The functions below should be applicable to all Flask apps.
