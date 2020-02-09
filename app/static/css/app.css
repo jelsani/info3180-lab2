@@ -1,51 +1,68 @@
 body {
-    background-color: #f4f3f3;
-    width: 350px;
-    height: 450px;
-    text-align: center;
-    margin: 20%;
-    border-radius: 10px;
+    margin: auto;
 }
 
-#ProfilePic{
-    background-color: green;
-    border-radius: 50%;
-    width: 120px;
-    height: auto;
+.profile{
+    background-color: #f4f3f3;
+    width: 550px;
+    height: 350px;
+    position: absolute;
+    top: 22.8em;
+    left: 27%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.profilepic-background{
+    display: inline-block;
+    background: linear-gradient(to right, #009688, #4CAF50);
+    width: 550px;
+    height: 300px;
+    position: absolute;
+    top: 4em;
+    left: 27%;
+    text-align: center;
+}
+
+#ProfilePic{ 
+    border-radius: 70%;
+    width: 180px;
+    height: 180px;
     position: relative;
-    top: 63px;
-    right: -149px;
-    border: 6px solid #f4f3f3;
+    top: 1em;
+    left: 15px;
+    right: 0em;
+    border: 2px solid #f4f3f3;
    }
 
 #Followers,#Following,#Posts{
     display: inline-block;
+    padding: 3px;
 }
 
-#Name {
+#Name,#Username,#Location,#DateJoined {
     padding: 10;
-    background-color: #F5F5F5;
-    border-bottom: 1px solid #DDDDDD ;
     border-radius: 5px 5px 0px 0px;
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 16px;
 }
 
-.profile{
-    width: 500px;
-    height: 70px;
-    text-align: center;
-    margin: 20%;
-    border-radius: 10px;
-}
 #aboutme{
-    width: 500px;
-    height: 70px;
+    width: 400px;
+    height: 100px;
     text-align: center;
-    margin: 20%;
+    position: absolute;
+    left: 33.3%;
+    top: 25em;
     border-radius: 10px;
 }
 
 button{
-    height: 30px;
+    size: 5px;
+    padding: 5px;
+    align-items: center;
     color: white;
-    background-color: black;
+    background-color: darkblue;
 }
